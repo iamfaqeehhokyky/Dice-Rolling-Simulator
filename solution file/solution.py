@@ -13,9 +13,20 @@ class Game:
     def get_user_roll(self):
         while True:
             user_input = input("Press Y to roll the dice, or N to exit: ").lower()
-
-            "TODO"
-            #Write your code here
+            if user_input == "n":
+                return None
+            elif user_input == "y":
+                while True:
+                    try:
+                        user_roll = int(input("Enter a value between 1 and 6: "))
+                        if 1 <= user_roll <= 6:
+                            return user_roll
+                        else:
+                            print("Invalid input. Please enter a value between 1 and 6.")
+                    except ValueError:
+                        print("Invalid input. Please enter a valid integer.")
+            else:
+                print("Invalid input. Please enter Y or N.")
 
     def play_game(self):
 
