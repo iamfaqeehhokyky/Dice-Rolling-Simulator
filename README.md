@@ -8,15 +8,15 @@ By writing this code, you will learn several key concepts in Python programming.
 
 ## Task:
 
-Your task is to handle errors from user input in get_user_roll() method. If the user enters an invalid input, the function should print a message indicating that the input was invalid and prompt the user to try again. The function should continue to prompt the user until a valid input is entered.
+Your task is to handle errors from user input in `get_user_roll()` method. If the user enters an invalid input, the function should print a message indicating that the input was invalid and prompt the user to try again. The function should continue to prompt the user until a valid input is entered.
 Replace the "TODO" string and replace it with your code.
 
 ## Hints:
 
-Use a try-except block to handle the ValueError that is raised when the user inputs a non-integer value.
-Use an if statement to check if the user input is between 1 and 6.
-Use a while loop to keep prompting the user until a valid input is entered.
-Note:
+Use a try-except block to handle the `ValueError` that is raised when the user inputs a non-integer value.
+Use an `if` statement to check if the user input is between 1 and 6.
+Use a `while` loop to keep prompting the user until a valid input is entered.
+_Note:_
 Be sure to test your code thoroughly to make sure it works as expected.
 
 ## How to Run
